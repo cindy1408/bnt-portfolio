@@ -1,0 +1,22 @@
+// {
+//     "hediet.vscode-drawio.plugins": [
+//         {
+//             "emmet.includeLanguages": {
+//                "javascript": "javascriptreact"
+//             }
+//          }
+//     ],
+//     "emmet.preferences": {
+//             "emmet.includeLanguages": {
+//                "javascript": "javascriptreact"
+//             }
+//          }
+// }
+
+
+{
+    "emmet.includeLanguages": {
+       "javascript": "javascriptreact"
+    }
+ }
+
