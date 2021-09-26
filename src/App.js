@@ -5,6 +5,7 @@ import Banner from './Components/Banner';
 import Card from './Components/Card';
 import image from './resources/image.jpg';
 import './Components/Parallax.css';
+import Languages from './Components/Languages';
 
 function AboutMeSection(){
   return (
@@ -20,7 +21,7 @@ function AboutMeSection(){
           <Card title="Hello" imageSrc={image} />
         </div>
       </div>
-
+ 
       <div className="row">
         <div className = "col-sm-4" align="center">
           <Card title="Hello" imageSrc={image} />
@@ -45,6 +46,9 @@ function App() {
       <Header />
       <Banner title="About Me" text="A little bit about me" bannerId="aboutMe"/>
       <AboutMeSection />
+      <div className="App" data-bs-spy="scroll" data-bs-target="#languages" data-bs-offset="100" tabindex="0"></div>
+      <Banner title='Languages'/>
+      <Languages />
       <Banner title='Contact me' text='cindycheung1408@gmail.com' />
     </div>
   
